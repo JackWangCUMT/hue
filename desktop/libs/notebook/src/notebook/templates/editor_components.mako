@@ -3137,7 +3137,7 @@ ${ hueIcons.symbols() }
           snippetIcon: 'fa-terminal'
         },
         sqoop1: {
-          snippetImage: '${ static("spark/art/icon_sqoop_48.png") }'
+          snippetImage: '${ static("sqoop/art/icon_sqoop_48.png") }'
         },
         distcp: {
           snippetIcon: 'fa-files-o'
