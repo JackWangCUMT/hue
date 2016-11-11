@@ -462,7 +462,7 @@ var Collection = function (vm, collection) {
       });
       return fields;
     }
-    return flatten(self.nested.schema());
+    return self.nested() ? flatten(self.nested.schema()) : [];
   });
   self.nestedAddLeaf = function(leaf) {
     leaf.push(
